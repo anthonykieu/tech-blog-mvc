@@ -183,13 +183,14 @@
       padding: 10px;
       margin: 10px;
       margin-top: 10px;
-      margin-bottom: 15px;
+      margin-left: 25px;
       box-shadow: 5px 5px;
          
   }
 
   header nav {
    margin-bottom: 15px;
+   margin-left: 20px;
 }
 
 header a {
@@ -227,20 +228,26 @@ header a {
     display:inline-block;
     padding:20px;
     width: 80%;
+    
 }
 
 .container {
     width: 150%;
     display: inline-block;
     justify-content: start;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    
 }
 
 .list {
     border: 1px solid black;
-    width: 133%;
+    width: 135%;
     font-size: 15px;
+    margin-left: -30px;
 }
 
 .h4 {
     margin-top: 20px;
 }
+
