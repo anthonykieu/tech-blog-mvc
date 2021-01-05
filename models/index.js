@@ -14,12 +14,6 @@ Post.belongsTo(User, {
     onDelete: 'CASCADE'
 });
 
-// Post.belongsToMany(User, {
-//     through: Vote,
-//     as: 'voted_posts',
-//     foreignKey: 'post_id'
-// });
-
 Comment.belongsTo(User, {
     foreignKey: 'user_id',
     onDelete: 'CASCADE'
