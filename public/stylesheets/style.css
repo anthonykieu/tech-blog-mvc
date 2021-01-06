@@ -210,7 +210,7 @@ header a {
   }
   
   a:hover {
-    color: red;
+    color: green;
   }
 
   .btn-no-style {
