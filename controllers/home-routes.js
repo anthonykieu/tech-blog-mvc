@@ -35,7 +35,6 @@ router.get('/', (req, res) => {
                 posts,
                 loggedIn: req.session.loggedIn
             });
-            // res.render('homepage', dbPostData[0].get({ plain: true }));
         })
         .catch(err => {
             console.log(err);

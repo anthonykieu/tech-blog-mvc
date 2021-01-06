@@ -1,16 +1,16 @@
 <article class="post">
     <div class="container">
-        <div class="row, title">
+        <div class="row row-title">
             <div class="col-12 align-self-start">
-                <a href="/post/{{id}}">{{title}}</a>
+                <a href="/post/{{id}}" class="post-title-a">{{title}}</a>
             </div>
         </div>
-        <div class="row, title">
+        <div class="row row-text">
             <div class="col-12 align-self-start">
                 {{post_text}}
             </div>
         </div>
-        <div class="row, meta">
+        <div class="row meta">
             <div class="col-12 align-self-start">
                 By {{user.username}} on {{format_date created_at}}
                 |

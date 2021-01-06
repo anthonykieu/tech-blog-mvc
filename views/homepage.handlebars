@@ -1,12 +1,4 @@
-{{!-- <ol class="post-list">
-    {{#each posts as |post|}}
-    <li class="list">
-        {{> post-info post }}
-    </li>
-    {{/each}}
-</ol> --}}
-
-<div class="container">
+{{!-- <div class="container">
     <div class="row, post-home">
         <div class="col-12 align-self-start">
             <ol class="post-list">
@@ -18,4 +10,17 @@
             </ol>
         </div>
     </div>
-</div>
+</div> --}}
+<section class="home-body">
+    <div class="container">
+        <div class="row, post-home">
+            <div class="col-12 align-self-start post-list">
+                {{#each posts as |post|}}
+                <li class="list">
+                    {{> post-info post }}
+                </li><br>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>
