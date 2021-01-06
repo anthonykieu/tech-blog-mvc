@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* background-color: gray; */
   }
   
   body, html {
@@ -9,7 +8,6 @@
     margin: 0;
     font-family: sans-serif;
     color: #333;
-    /* background-color:gray; */
   }
   
   button {
@@ -47,6 +45,7 @@
   
   textarea {
     min-width: 40%;
+    width: 100%;
     min-height: 100px;
   }
   
@@ -244,7 +243,6 @@ header a {
     width: 150%;
     display: inline-block;
     justify-content: start;
-    /* border: 1px solid black; */
     margin-top: 10px;
     background-color: white;
     
@@ -255,7 +253,6 @@ header a {
     width: 103.5%;
     font-size: 15px;
     margin: 10px 0 10px -20px;
-    /* margin-left: -20px; */
     background-color: white;
 }
 
