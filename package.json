@@ -16,13 +16,14 @@
   "devDependencies": {},
   "scripts": {
     "test": "jest",
+    "watch": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anthonykieu/tech-blog-mvc.git"
   },
-  "author": "",
+  "author": "Ant",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/anthonykieu/tech-blog-mvc/issues"
